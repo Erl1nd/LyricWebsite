@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lyrics</title>
+        <style>
+            html {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+            }
+
+            body {
+                color: white;
+                margin: 0;
+                padding: 0;
+                perspective: 1px;
+                transform-style: preserve-3d;
+                height: 100%;
+                width: 100%;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+
+            header {
+                box-sizing: border-box;
+                min-height: 100vh;
+                position: relative;
+                transform-style: inherit;
+                width: 100vw;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            header h1 {
+                font-size: 6rem;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+            }
+
+            header,
+            header:before {
+                background: 50% 50% / cover;
+            }
+
+            header::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                display: block;
+                background-image: url("https://github.com/Erl1nd/Hero/blob/master/HERO.jpg?raw=true://github.com/Erl1nd/Hero/blob/master/HERO.jpg");
+                background-size: cover;
+                transform-origin: center center 0;
+                transform: translateZ(-1px) scale(2);
+                z-index: -1;
+                min-height: 100vh;
+            }
+
+
+            .container {
+                color: white;
+                text-align: center;
+                width: 100%;
+                z-index: 2;
+                position: absolute;
+                top: 100vh;
+                background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+                line-height: 30px;
+                font-weight: lighter;
+                padding: 70px;
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            p {
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+
+            hr {
+                display: block;
+                width: 10rem;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Close to You</h1>
+        </header>
+        <div class="container">
+            <p>
+                Why do birds suddenly appear <br>
+                Every time you are near?<br>
+                Just like me, they long to be<br>
+                Close to you<br>
+            </p>
+            <hr>
+            <p>
+                Why do stars fall down from the sky<br>
+                Every time you walk by?<br>
+                Just like me, they long to be<br>
+                Close to you<br>
+            </p>
+            <hr>
+            <p>
+                On the day that you were born the angels got together<br>
+                And decided to create a dream come true<br>
+                So they sprinkled moon dust in your hair of gold and starlight in your eyes of blue<br>
+            </p>
+            <hr>
+            <p>
+                That is why all the girls in town<br>
+                Follow you all around<br>
+                Just like me, they long to be<br>
+                Close to you <br>
+            </p>
+            <hr>
+            <p>
+                On the day that you were born the angels got together<br>
+                And decided to create a dream come true<br>
+                So they sprinkled moon dust in your hair of gold and starlight in your eyes of blue<br>
+            </p>
+            <hr>
+            <p>
+                That is why all the girls in town<br>
+                Follow you all around<br>
+                Just like me, they long to be<br>
+                Close to you <br>
+            </p>
+            <hr>
+            <p>
+                Just like me, they long to be<br>
+                Close to you<br>
+            </p>
+            <hr>
+            <p>
+                Wa, close to you<br>
+                Wa, close to you<br>
+                Ha, close to you<br>
+                La, close to you<br>
+            </p>
+        </div>
+    </body>
+</html>
